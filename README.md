@@ -1,12 +1,14 @@
 # masofon-android
 
-====installation====
+
+       ----------------how to run app on emulator-------------------
+(it cant simulate file system at the current so it wont get soti file but you can debug othr stuff kike visual stuff with it)
 
 open vscode on project path ...\super-pharm\masofon-android
 
-           ----------------how to run app on emulator-------------------
+           
 
-(it cant simulate file system at the current so it wont get soti file but you can debug othr stuff kike visual stuff with it)
+
 
         open android studio on:
               ...\super-pharm\masofon-android :
@@ -32,15 +34,13 @@ if you are doing changes in code , to see changes on emulator go to:
 
 and delete : app-debug.apk 
 
-then do again
+then on vs terminal run again
 
        cordova build
 
        cordova run android
 
-to see app on browser :
-
- cordova run browser
+       to see app on browser :   cordova run browser
 
 if cordova run android fails try
 adb uninstall <package_name>
@@ -72,21 +72,33 @@ press build then: click =>  geberate signed bundle apk => choose apk
 
 after signed apk buld is done :
 
-connect masofon to computer with usb
-take =>  app-release.apk     from:   .....super-pharm\masofon-android\platforms\android\app\release\app-release.apk
-and drag to desktop
-then drag the copy to download folder on the masofon
+connect masofon to computer with usb:
+
+           take app-release.apk    
+
+          from:   .....super-pharm\masofon-android\platforms\android\app\release\app-release.apk
+
+          drag to desktop to make a copy of apk
+
+           drag the copy to download folder on the masofon
+
 you can disconnect masofon from compuetr
 
 then use masofon gui
-pin code is 3001
-long press on bottom right triangle = > choose adminstrator
-enter pw:  Bbfree
-press on apps icon on bottom 
-press on bluebird file manager =>download=> press on app-release.apk => 
 
-התקן=>  תן למכשיר להחליט => התקן בכל זאת 
-לא לשלוח לסריקה
+           pin code is 3001
+
+            long press on bottom right triangle => choose adminstrator
+
+             enter pw:  Bbfree
+
+              press on apps icon on bottom 
+
+             press on bluebird file manager =>download=> press on app-release.apk => 
+
+
+התקן=>       תן למכשיר להחליט =>        התקן בכל זאת        =>           לא לשלוח לסריקה      
+    
 
 פתח
 
