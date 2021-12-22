@@ -4,34 +4,39 @@
 
 open vscode on project path ...\super-pharm\masofon-android
 
--------------------how to run app on emulator-------------------
+           ----------------how to run app on emulator-------------------
 
 (it cant simulate file system at the current so it wont get soti file but you can debug othr stuff kike visual stuff with it)
 
-open android studio on ...\super-pharm\masofon-android :
-	click AVD manager
+        open android studio on:
+              ...\super-pharm\masofon-android :
 
-	if device exists press play
+click AVD manager.
+ if device exists press play, if not create emulator device
 
-run on vscode trminal  on this path:   ../super-pharm/masofon-android ,
+run on vscode trminal  on this path:  
+
+        ../super-pharm/masofon-android ,
 
   then run this commands:
-     cordova build
-     cordova run android
+     
+          cordova build
 
-if you are doing changes in code
-to see changes on emulator:
+           cordova run android
 
-go to
-    ....\super-pharm\masofon-android\platforms\android\app\build\outputs\apk\debug
+if you are doing changes in code , to see changes on emulator go to:
+
+
+         ....\super-pharm\masofon-android\platforms\android\app\build\outputs\apk\debug
 
 
 and delete : app-debug.apk 
 
 then do again
 
-   cordova build
-   cordova run android
+       cordova build
+
+       cordova run android
 
 to see app on browser :
 
@@ -47,16 +52,22 @@ open in chrome:  chrome://inspect/#devices
 wait till you see device details then click inspect 
 
 
---------------------------to sign apk-----------------------------------
+                       --------------------------how to sign apk-----------------------------------
 
 open again android studio on : ....\super-pharm\masofon-android\platforms\android
 
 press build then: click =>  make project
+
 press build then: click =>  make modue android app
+
 press build then:click =>   run generate source gradle tasks
+
 press build then: click =>  select build variant => then on the right of the screen click "app"
+
 press build then: click =>  build bundle/apk => choose apk
+
 press build then: click =>  geberate signed bundle apk => choose apk
+
 
 
 after signed apk buld is done :
