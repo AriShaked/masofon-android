@@ -72,6 +72,9 @@ press build then: click =>  geberate signed bundle apk => choose apk
 
 after signed apk buld is done :
 
+                  --------------------------how to install apk on masofon , insall and runapp -----------------------------------
+
+
 connect masofon to computer with usb:
 
            take app-release.apk    
