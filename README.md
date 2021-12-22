@@ -5,13 +5,17 @@
 open vscode on project path ...\super-pharm\masofon-android
 
 -------------------how to run app on emulator-------------------
+
 (it cant simulate file system at the current so it wont get soti file but you can debug othr stuff kike visual stuff with it)
 
-open android studio on ...\super-pharm\masofon-android
+open android studio on ...\super-pharm\masofon-android :
 	click AVD manager
+
 	if device exists press play
 
-run on vscode trminal  on this path:   ../super-pharm/masofon-android ,  then run this commands:
+run on vscode trminal  on this path:   ../super-pharm/masofon-android ,
+
+  then run this commands:
      cordova build
      cordova run android
 
@@ -55,7 +59,7 @@ press build then: click =>  build bundle/apk => choose apk
 press build then: click =>  geberate signed bundle apk => choose apk
 
 
-after done:
+after signed apk buld is done :
 
 connect masofon to computer with usb
 take =>  app-release.apk     from:   .....super-pharm\masofon-android\platforms\android\app\release\app-release.apk
@@ -69,7 +73,9 @@ long press on bottom right triangle = > choose adminstrator
 enter pw:  Bbfree
 press on apps icon on bottom 
 press on bluebird file manager =>download=> press on app-release.apk => 
+
 התקן=>  תן למכשיר להחליט => התקן בכל זאת 
 לא לשלוח לסריקה
+
 פתח
 
